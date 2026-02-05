@@ -10,7 +10,7 @@ export const portfolioData: ResumeData = {
     github: '',
     location: 'Cadajug, Laua-an, Antique, Philippines',
     summary:
-      'Philip John Cerbas is an experienced Full Stack Developer specializing in Laralve, VueJs, WordPress, WooCommerce, and full-stack web applications. His expertise lies in web development, server management, and software designing, with a keen ability to solve complex system flows and deliver high-quality projects.',
+      'Philip John Cerbas is an experienced Full Stack Developer specializing in Laravel, VueJs, WordPress, WooCommerce, and full-stack web applications. His expertise lies in web development, server management, and software designing, with a keen ability to solve complex system flows and deliver high-quality projects.',
   },
   experience: [
     {
