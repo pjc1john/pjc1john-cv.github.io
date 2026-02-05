@@ -18,6 +18,9 @@ function fixPaths(dir) {
       content = content.replace(/src="\/_next\//g, 'src="./_next/');
       content = content.replace(/href='\/_next\//g, "href='./_next/");
       content = content.replace(/src='\/_next\//g, "src='./_next/");
+      // Fix paths inside inline script tags
+      content = content.replace(/\\"\/\_next\//g, '\\".\/_next/');
+      content = content.replace(/\\'\/\_next\//g, "\\'./_next/");
 
       fs.writeFileSync(filePath, content, 'utf8');
       console.log(`Fixed paths in: ${filePath}`);
