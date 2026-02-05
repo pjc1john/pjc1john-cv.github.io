@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '',
   images: {
     unoptimized: true,
   },
@@ -10,6 +11,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  trailingSlash: true,
 };
 
 export default nextConfig;
